@@ -8,22 +8,53 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to my simple website</h1>
-        <h2>Task Manager</h2>
+        <h1>Welcome to my simple website</h1> 
     </header>
-    <main>
+<main>
         <p>This s a simple website about <br> insertion, deletion,edit tasks and view task craeted by <br> NTIYAGA with html,css and javaScript.</p>
-        <button id="clickhere">clickHere</button>
+        
         <form id="taskForm">
             <input type="text"
             id="taskInput" placeholder="New task" required />
-            <button type="submit">add task</button>
+            <button type="submit">submit</button>
+            <button id="clickhere">clickHere to continue</button>         
         </form>
         <ul id="taskList"></ul>
-    </main>
-    <footer>
-        <p>&copy;2025 Ntiyaga kagizo simple Website and task Manager App reserved</p>
-    </footer>
+        <main>
+        <p>please you may add more task if you have more tasks</p>
+        <form id="taskForm">
+          <input type="text" id="taskInput" placeholder="please add more tasks..." />
+          <button type="submit">add more task</button>
+        </form>
+        <ul id="taskList"></ul>
+        </main>
+        <main>
+        <p>This location is special for editing task/s if there is any mistake <br> or incorrect tasks if you want to edit it</p>
+            <form id="taskForm">
+              <input type="text" id="taskInput" placeholder="edit your tasks here..."/>
+              <button type="submit">edit task/s</button>
+            </form>
+        </main>
+        <main>
+            <p>If you want to update your task/s please <br> do it here</p>
+            <form id="taskForm">
+              <input type="text" id="taskInput" placeholder="update your tasks..."/>
+              <button type="submit">update task/s</button>
+            </form>
+        </main>
+        <main>
+            <p>delete tasks have been already uploaded or added to a task manager<br> or remove all unwanted/outdates tasks</p>
+            <form id="taskForm">
+              
+              <button type="submit">click to delete task/s</button>
+            </form>
+        
+            <ul id="taskList"></ul>
+        </main>
+</main>
+<footer>
+        <p>&copy;2025 Ntiyaga kagizo simple Website and task Manager reserved</p>
+</footer>
     <script src="cript.js"></script>
 </body>
 </html>
